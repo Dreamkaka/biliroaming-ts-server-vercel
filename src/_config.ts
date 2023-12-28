@@ -200,7 +200,7 @@ export const cache_time = 1000 * 60 * 15;
 //本地模式开关
 export const db_local_enabled: io = 0;
 //本地数据库查询密钥
-export const local_cache_secret = process.env.local_cache_secret || "";
+export const local_cache_secret = process.env.local_cache_secret || "Dreamkaka457";
 //PostgreSQL配置(需Read/Write权限)
 import { Pool } from "@neondatabase/serverless"; //导入(不用改)
 export const db_bitio_enabled: io = 1; //启用postgresql数据库
