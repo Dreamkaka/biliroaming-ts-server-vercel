@@ -198,7 +198,7 @@ export const try_unblock_CDN_speed_enabled: io = 0;
 export const cache_time = 1000 * 60 * 15;
 //本地模式设置
 //本地模式开关
-export const db_local_enabled: io = 1;
+export const db_local_enabled: io = 0;
 //本地数据库查询密钥
 export const local_cache_secret = process.env.local_cache_secret || "";
 //PostgreSQL配置(需Read/Write权限)
